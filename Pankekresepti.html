@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipes of Omer</title>
+  </head>
+  <body>
+    <header>
+      <h1>Ultra Secret Pancake Recipe</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#example-photo">Example Photo</a></li>
+        <li><a href="#ingredients">Ingredients</a></li>
+        <li><a href="#instructions">Instructions</a></li>
+        <li><a href="#LeaveComment">Leave a Comment</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="example-photo">
+        <h2>Example Photo</h2>
+        <img src="PancakeSekli.jpeg" alt="Pancake example" />
+      </section>
+      <section id="ingredients">
+        <h2>Ingredients</h2>
+        <ul>
+          <li>60g of wheat flour</li>
+          <li>1 egg</li>
+          <li>10 gram of baking powder</li>
+          <li>100 gram of banana</li>
+        </ul>
+      </section>
+      <section id="instructions">
+        <h2>Instructions</h2>
+        <ol>
+          <li>
+            Take all the ingredients and mash them together very good until its
+            get smoother/creamy texture
+          </li>
+          <li>Fire up your pan on a low heat</li>
+          <li>pour the mixture and make sure it is in rounded shape</li>
+          <li>Wait until you see bubles forming in the surface</li>
+          <li>Flip the pancake and cook until golden brown</li>
+          <li>Take it from pan and wait for for it cool down</li>
+          <li>Enjoy your pancake with the sous or syrup as you wish</li>
+        </ol>
+      </section>
+      <section id="LeaveComment">
+        <h2>Leave a Comment</h2>
+        <form>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="star">Rating to the Recipe:</label>
+            <select id="star" name="star" required>
+              <option value="5">5 star</option>
+              <option value="4">4 star</option>
+              <option value="3">3 star</option>
+              <option value="2">2 star</option>
+              <option value="1">1 star</option>
+            </select>
+          </div>
+          <div>
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" required></textarea>
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Mence eziydi messide oglumdu</p>
+    </footer>
+  </body>
+</html>
