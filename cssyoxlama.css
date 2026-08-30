@@ -1,0 +1,38 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  padding: 32px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.headline {
+  background-color: #808080;
+  font-family: "Arial", sans-serif;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+}
+.ingredient {
+  color: #86641f;
+  font-family: "Arial", sans-serif;
+  padding-left: 0rem;
+}
+.instructions {
+  color: rgb(196, 76, 16);
+  font-family: "Arial", sans-serif;
+  padding-left: 0rem;
+}
+.links {
+  padding-left: 0rem;
+  font-family: "Arial", sans-serif;
+}
+.comment-form {
+  font-family: "Arial", sans-serif;
+  margin-left: -1rem;
+}
+a {
+  color: #0000ff;
+  text-decoration: none;
+}
+.photo {
+  max-width: 100%;
+  max-height: 100%;
+}
