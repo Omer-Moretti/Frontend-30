@@ -1,0 +1,111 @@
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.6;
+  color: #1a1a1a;
+  background-image: url("sekiller/Klein.jpg");
+  background-size: cover;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.girisbasligi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: red;
+  font-family: "Cursive", "Lucida Handwriting", cursive;
+  flex-shrink: 0;
+}
+.basliqlar {
+  padding-top: 2rem;
+  margin-top: 2rem;
+}
+.linkhissesi {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  gap: 1rem;
+}
+a {
+  text-decoration: none;
+  color: #f00;
+  font-family: "Cursive", "Lucida Handwriting", cursive;
+  font-size: 0.8rem;
+}
+
+.basliq1 {
+  font-family: "Cursive", "Lucida Handwriting", cursive;
+  font-size: 1.5rem;
+  color: #191970;
+  text-align: center;
+}
+p {
+  font-family: "Cursive", "Lucida Handwriting", cursive;
+  font-size: 0.8rem;
+  color: #191970;
+  text-align: center;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #f39c12;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.card-sekil {
+  max-width: 50%;
+  height: auto;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.divflex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-text {
+  color: #f00;
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+}
+.button-hissesi {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.but-ton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: "Cursive", "Lucida Handwriting", cursive;
+  font-size: 0.8rem;
+  color: #191970;
+  text-align: center;
+  font-weight: bold;
+}
+.but-ton:hover {
+  color: #f3128e;
+}
+.yazibas {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  color: #191970;
+  margin-top: 4rem;
+}
